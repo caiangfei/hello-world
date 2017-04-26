@@ -1,0 +1,7 @@
+1、删除.zip文件(是ecas提供的压缩文件)
+2、页面格式从 utf-转为gbk
+3、替换页面中 charset="UTF-8" ==> charset="GBK"
+4、替换特殊符号 &middot; ，主要是对chm文件中 目录和索引名称好看点。
+5、you appear to be using IE11 in IE7 emulation modeIE emulation modes can behave significantly differetly from ACTUAL older versions of IE......
+    解决：找到ie-emulation-modes-warning.js，注释弹出警告的地方
+6、创建chm即可(一定要选择默认的构建模板)
